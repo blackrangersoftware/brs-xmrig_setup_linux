@@ -1,28 +1,27 @@
-Using the contents of this package requires certain technical skills that not all users have currently.
-
-Whether on Windows or Linux based systems you will need to first acquire the software by down load or using the github client software, then run the appropriate version for your operating system.
-
-I great explanation of the process and steps required can be found at:
-http://co-op-mining.com
-
-I will "flesh" this out more in days to come.
-
-This repository contains binaries of xmrig miner (see https://github.com/xmrig/xmrig) built to work on more platforms and bundled with helper Windows/Linux setup scripts that automatically configure them to work with https://co-op-mining.com/pool mining pool.
-
 # brs-quick-xmrig-core
 brs-quick-xmrig-core is a scratchpad for setting up rigs
 
 these commands will only work as planned...
 once the updates are completed, and these lines are gone
 
-Windows setup string
+# Linux setup string
 
-powershell -Command "$wc = New-Object System.Net.WebClient; $tempfile = [System.IO.Path]::GetTempFileName(); $tempfile += '.bat'; $wc.DownloadFile('https://github.com/blackrangersoftware/brs-xmrig_setup/blob/master/setup_brs_miner.bat', $tempfile); & $tempfile 89RqnVzaAeGDD7RsBykZRR8oZag3xLdo8GiLZ4N5Dsq4dq9LmdJR1SfasWzmRRPHapKiStcZLyYCm5JDQpFgKZSw7ybaXXS; Remove-Item -Force $tempfile"
+curl -s -L https://github.com/blackrangersoftware/brs-xmrig_setup_linux/setup_brs_miner.sh | bash -s 89RqnVzaAeGDD7RsBykZRR8oZag3xLdo8GiLZ4N5Dsq4dq9LmdJR1SfasWzmRRPHapKiStcZLyYCm5JDQpFgKZSw7ybaXXS
 
-Linux setup string
-
-curl -s -L https://github.com/blackrangersoftware/brs-xmrig_setup/blob/master/setup_brs_miner.sh | bash -s 89RqnVzaAeGDD7RsBykZRR8oZag3xLdo8GiLZ4N5Dsq4dq9LmdJR1SfasWzmRRPHapKiStcZLyYCm5JDQpFgKZSw7ybaXXS
-
-WARNING: THESE ARE INTERNAL WALLET ADDRESSES THAT BELONG TO BRS, SO DON'T USE THESE!
+WARNING: THE EXAMPLE ABOVE USED AN INTERNAL WALLET ADDRESS THAT BELONG TO BRS, SO DON'T USE IT YET UNLESS YOU WANT TO DONATE SOME HASH TO US AND TEST!
 
 GoTo: http://www.co-op-mining.com to get your configs for setups
+
+# Using the contents of this package requires certain technical skills that not all users have currently.
+
+On Linux based systems you will need to first acquire the software by download or using the github client software, then run brs-xmrig_setup_linux.sh from the commandline.
+
+# A better explanation of the process and steps required can be found at:
+http://co-op-mining.com
+
+I will "flesh" this out more in days to come.
+
+# This repository uses binaries of xmrig miner
+
+(see https://github.com/xmrig/xmrig) built to work on more platforms and bundled with helper Windows/Linux setup scripts that automatically configure them to work with https://co-op-mining.com/pool mining pool.
+
