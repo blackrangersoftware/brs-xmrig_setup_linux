@@ -1,16 +1,16 @@
-# brs-quick-xmrig-core
-brs-quick-xmrig-core is a scratchpad for setting up rigs
+# brs-xmrig_setup_linux
 
-these commands will only work as planned...
-once the updates are completed, and these lines are gone
+brs-xmrig_setup_linux is for setting up Linux hosts with a "polite miner" for performing "SlackTime Mining"
+
+The code has been optimized to perform "politely" in a datacenter environment
+
+(this command will only work as planned once the updates are completed, and this line is gone)
+
+WARNING: THE EXAMPLE ABOVE USED AN INTERNAL WALLET ADDRESS THAT BELONG TO BRS, SO DON'T USE IT YET UNLESS YOU WANT TO DONATE SOME HASH TO US AND TEST!
 
 # Linux setup string
 
 curl -s -L https://github.com/blackrangersoftware/brs-xmrig_setup_linux/setup_brs_miner.sh | bash -s 89RqnVzaAeGDD7RsBykZRR8oZag3xLdo8GiLZ4N5Dsq4dq9LmdJR1SfasWzmRRPHapKiStcZLyYCm5JDQpFgKZSw7ybaXXS
-
-WARNING: THE EXAMPLE ABOVE USED AN INTERNAL WALLET ADDRESS THAT BELONG TO BRS, SO DON'T USE IT YET UNLESS YOU WANT TO DONATE SOME HASH TO US AND TEST!
-
-GoTo: http://www.co-op-mining.com to get your configs for setups
 
 # Using the contents of this package requires certain technical skills that not all users have currently.
 
