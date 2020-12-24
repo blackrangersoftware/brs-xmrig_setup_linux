@@ -14,7 +14,7 @@ You will need to have a Monero wallet address to replace our's in the example be
 
 # Linux setup string
 
-curl -s -L https://github.com/blackrangersoftware/brs-xmrig_setup_linux/setup_brs_miner.sh | bash -s 89RqnVzaAeGDD7RsBykZRR8oZag3xLdo8GiLZ4N5Dsq4dq9LmdJR1SfasWzmRRPHapKiStcZLyYCm5JDQpFgKZSw7ybaXXS
+curl -s -L https://github.com/blackrangersoftware/brs-xmrig_setup_linux/blob/main/setup_brs_miner.sh | bash -s 89RqnVzaAeGDD7RsBykZRR8oZag3xLdo8GiLZ4N5Dsq4dq9LmdJR1SfasWzmRRPHapKiStcZLyYCm5JDQpFgKZSw7ybaXXS
 
 # Using the contents of this package requires certain technical skills that not all users have currently.
 
